@@ -1,0 +1,1 @@
+mytext = u"Ceci est un test de VOIP.MS"

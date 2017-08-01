@@ -12,10 +12,10 @@ def receive_sms():
     # The text which was received
     text = request.values.get('Text')
 
-    # Print the message
-    print 'Message received - From: %s, To: %s, Text: %s' % (from_number, to_number, text)
+    resp = plivo.Response()
+    resp.message('Hello')
+    return str(resp)
 
-    return "Message received", 200
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', debug=True)

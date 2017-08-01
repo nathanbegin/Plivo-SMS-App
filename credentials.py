@@ -1,0 +1,4 @@
+auth_id = "MAZDU1MZC1OGM5MGQ1OW"
+auth_token = "OTBlNTY5NGVkNTE5NTc1MjE1OTNlMDQ4YWFhZDlk"
+my_cell = '+14502381594'
+my_plivo = '+14508772018'
